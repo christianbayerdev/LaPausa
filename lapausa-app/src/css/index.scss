@@ -1,6 +1,8 @@
 body {
     background-color: #74EBD5;
     background-image: linear-gradient(90deg, #74EBD5 0%, #9FACE6 100%);
+    font-family: 'Raleway';
+    color: #333;
 }
 
 #root {
@@ -25,13 +27,20 @@ header {
     padding: 2rem;
     background-color: #fefefe;
 
-    img {
+    span {
         width: 30%;
+        font-size: 2rem;
+        font-weight: bold;
+        color: #5f7cff;
+        font-family: 'Raleway';
     }
 }
 
 nav {
     width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
 }
 
 nav ul {
@@ -42,6 +51,21 @@ nav ul {
     list-style: none;
     gap: 4rem;
     justify-content: flex-end;
+
+    li {
+        font-size: 1rem;
+        font-weight: 600;
+
+        a {
+            text-decoration: none;
+
+            &:active,
+            &:focus,
+            &:visited {
+                color: #333;
+            }
+        }
+    }
 }
 
 nav li {
