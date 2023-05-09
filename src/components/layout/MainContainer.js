@@ -3,7 +3,9 @@ import React from 'react';
 function MainContainer() {
   return (
     <main>
-       {/* Add your main content here */}
+       <div class="container">
+
+       </div>
     </main>
   );
 }

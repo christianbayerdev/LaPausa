@@ -4,17 +4,17 @@ function Header() {
   return (
     <header>
     <div class="menu">
-      <img src="your-logo.png" alt="your logo" />
+      <span>laPausa</span>
       <nav>
         <ul>
           <li>
             <a href="/">Home</a>
           </li>
           <li>
-            <a href="/about">About</a>
+            <a href="#">Coming Soon</a>
           </li>
           <li>
-            <a href="/contact">Contact</a>
+            <a href="#">Coming Soon</a>
           </li>
         </ul>
       </nav>
