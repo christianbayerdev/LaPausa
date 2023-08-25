@@ -1,3 +1,5 @@
+// Basic Layout adjustments
+
 body {
     background-color: #74EBD5;
     background-image: linear-gradient(90deg, #74EBD5 0%, #9FACE6 100%);
@@ -9,15 +11,12 @@ body {
     margin: 0 auto;
 }
 
-main {
-    max-width: 1366px;
-}
+// Menu
 
 .menu {
     display: flex;
     flex-direction: row;
     width: 100%;
-    max-width: 1366px;
     margin: 0 auto;
 }
 
@@ -26,6 +25,7 @@ header {
     flex-direction: row;
     padding: 2rem;
     background-color: #fefefe;
+    margin: .5rem .5rem 0 .5rem;
 
     span {
         width: 30%;
@@ -78,4 +78,50 @@ nav li {
         flex-direction: row;
         justify-content: space-around;
     }
+}
+
+// Main Container
+
+.container {
+    display: flex;
+    padding: .5rem;
+    gap: .5rem;
+    justify-content: stretch;
+    height: 87.7vh;
+}
+
+.container-menu {
+    flex: 1;
+    background-color: #f0f0f0;
+    padding: 2rem;
+}
+
+.container-content {
+    flex: 3;
+    background-color: #fff;
+    padding: 2rem;
+}
+
+.lapausa-selection {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.lapausa-selection li {
+    margin-bottom: 20px;
+}
+
+.calculator form label,
+.calculator form input {
+    display: block;
+    margin-bottom: 20px;
+}
+
+.texture {
+    background-color: rgba(255, 255, 255, 0.95); // Semi-transparent background
+    border-radius: 5px;
+    backdrop-filter: blur(10px); // Applies the blur
+    -webkit-backdrop-filter: blur(10px); // For Safari
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
